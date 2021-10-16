@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/logozanzibarchoumtour.png">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- header with navbar + logo + main picture -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand py-0 my-0" href="index.html">
+                    <img class="p-0" src="imgs/logo1.svg" alt="" height="32">
+                    ZanzibarChoumTour
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="tours.html" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tours
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="tours.html">Stone Town Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Prison Island Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Spices Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Joziani Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Dolfin Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Blue Safari Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Sunset Cruise Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Nakupenda Sand Bank Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Fishing Tour</a></li>
+                                <li><a class="dropdown-item" href="tours.html">Other Tours</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutme.html">About Me</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav-item ps-5 align-self-center bd-highlight">
+                            <a href="#"><img src="imgs/english.svg" height="25px" width="25px" alt=""></a>
+                            <a href="#"><img src="imgs/spain.svg" height="25px" width="25px" alt=""></a>
+                            <a href="#"><img src="imgs/arabic.svg" height="25px" width="25px" alt=""></a>
+                            <a href="#"><img src="imgs/italy.svg" height="25px" width="25px" alt=""></a>
+                            <a href="#"><img src="imgs/français.svg" height="25px" width="25px" alt=""></a>
+                            <a href="#"><img src="imgs/germany.svg" height="25px" width="25px" alt=""></a>
+                            <a href="#"><img src="imgs/russie.svg" height="25px" width="25px" alt=""></a>
+                            <a href="#"><img src="imgs/portugal.svg" height="25px" width="25px" alt=""></a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="mainimg" class="container-fluid">
+            <!-- <img class="logo img-fluid" src="imgs/logo.png" alt=""> -->
+            <div class="row">
+                <div class="logo col d-flex justify-content-center text-center align-items-center">
+                    <div>
+                        <h1>WELCOME TO ZANZIBARCHOUMTOUR</h1>
+                        <p>The best guide</p>
+                        <button type="button" class="btn btn-light">Book now</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </header>
+
+
+    <!-- Choum presentation -->
+    <section class="container-fluid mt-5 mb-3">
+        <div class="row justify-content-center text-center align-items-center">
+            <div class="col-10 col-md-8">
+                <hr>
+                <hr>
+                <h2 class="fs-1 mb-5">PRIVATE TOUR GUIDE IN ZANZIBAR</h2>
+                <p class="fs-5">Would you like to discover the island with a professional local guide?<br>
+                    Are you coming to Zanzibar for the first time?<br>
+                    Then, I am your guide! </p>
+                <p class="fs-5">As a fully licensed tour guide, I offer guided tours in Zanzibar.<br>
+                    I would love to guide you in the best places, but also in the secrets.</p>
+                <p class="fs-5">My private tours are aimed at couples, families and groups of friends.<br>
+                    Together, we will tailor-made a tour that suits you, so that you can enjoy the most of your time in
+                    Zanzibar </p>
+                <hr>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- tours -->
+    <section class="container-fluid mt-5 mb-3">
+
+        <div class="row justify-content-center text-center align-items-center">
+            <h2 class="toursback p-3">TOURS</h2>
+
+            <div class="col-12 col-md-10">
+
+                <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="7"
+                            aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="8"
+                            aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="9"
+                            aria-label="Slide 10"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imgs/stonetown.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Stonetown Tour</h5>
+                                <p>The old city</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/prisonisland.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Prison Island Tour</h5>
+                                <p>Slaves and diseases</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/spices.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Spices Tour</h5>
+                                <p>Know all about spices</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/joziani.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Joziani Tour</h5>
+                                <p>Monkeys</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/dolfin.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Dolfin Tour</h5>
+                                <p>Swim with dolfins</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/bluesafari.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Safari Blue Tour</h5>
+                                <p>Snorkeling, islands & Barbecue</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/sunset.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sunset Cruise Tour</h5>
+                                <p>Sunset & traditional songs</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/nakupenda.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Nakupenda Sandbank Tour</h5>
+                                <p>Snorkeling, islands & Barbecue</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/fishing.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Fishing Tour</h5>
+                                <p>Fishing with locals technics</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
+                <!-- <img class="img-fluid" src="imgs/gulen-erol-thwYxh-o734-unsplash.jpg" alt=""> -->
+            </div>
+            <div class="col-12 col-md-10 p-3">
+
+                <div class="row p-3 justify-content-center">
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="stonetowncard card text-center text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Stonetown</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="prisonislandcard card text-center bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Prison Island</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="spicescard card text-center bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Spices</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="jozianicard card text-center bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Joziani</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="dolfincard card text-center bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Dolfin</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="bluesafaricard card text-center bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Blue Safari</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="nakupendacard card text-center bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Nakupenda</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="fishingcard card text-center bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Fishing</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <div class="sunsetcruisecard card text-center bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Sunset Cruise</h5>
+                                <a href="#" class="btn btn-light rounded-pill">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-dark p-3">Book now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- packages -->
+    <section class="container-fluid mt-5 mb-3">
+
+        <div class="row justify-content-center text-center align-items-center">
+            <h2 class="toursback p-3">FULL PACKAGE (6 DAYS)</h2>
+
+            <div class="col-12 col-md-10 p-3">
+
+                <div class="row p-3 justify-content-center">
+                    <div class="col-12 col-lg-4 p-3">
+                        <div class="card h-100 shadow text-center border-light text-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">DAY 1</h5>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="stonetowncard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Stonetown</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="prisonislandcard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Prison Island</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="spicescard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Spice Tour</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 p-3">
+                        <div class="card h-100 shadow text-center border-light text-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">DAY 2</h5>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="dolfincard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Swimming with Dolfins</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="jozianicard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Joziani Forest</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="therockcard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">The rock restaurant</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="kaefangcard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Kae Fang beach</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 p-3">
+                        <div class="card h-100 shadow text-center border-light text-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">DAY 3</h5>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="nakupendacard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Nakupenda</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="fishingcard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Fishing activities</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="sunsetcruisecard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Sunset Cruise</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 p-3">
+                        <div class="card h-100 shadow text-center border-light text-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">DAY 4</h5>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="bluesafaricard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Blue Safari</h5>
+                                                    <p class="card-text">Luxury trip & Picnik <br> Full day</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 p-3">
+                        <div class="card h-100 shadow text-center border-light text-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">DAY 5</h5>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="villagecard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Village Tour</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="costalcard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Costal Tour</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="aquariumcard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Aquarium</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 p-3">
+                        <div class="card h-100 shadow text-center border-light text-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">DAY 6</h5>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="snorkelingcard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Snorkeling</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="sunsetvillagecard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Sunset Village</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="localmusiccard card text-center bg-dark text-white">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Local Swahili Music</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="btn btn-dark p-3">Book now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- transport -->
+    <section class="container-fluid mt-5 mb-3">
+        <div class="background-black row text-center align-items-center text-white">
+            <div class="col-md-6 col-12 p-0">
+                <img class="img-fluid" src="imgs/taxi.png" alt="">
+            </div>
+            <div class="col-md-6 col-12 p-3">
+                <h2>Transport</h2>
+                <p class="fs-5">From the airport to the hotel and for all activities.<br>
+                    You can contact me for more details</p>
+                <button type="button" class="btn btn-light">More details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- presentation of zanzibar -->
+    <section class="container-fluid mt-5 mb-3">
+        <div class="row justify-content-md-center text-center align-items-center">
+            <div class="col-12 col-md-5">
+                <h2 class="p-2">Zanzibar Paradise Island !</h2>
+                <p class="fs-5">Just off the mainland of Tanzania, on the east coast of Africa, is an Indian Ocean
+                    nirvana called Zanzibar. The Zanzibar archipelago is also known as the 'Spice Islands' because of
+                    its abundance of produce, spice, and clove plantations. </p>
+
+                <p class="fs-5">Zanzibar is blessed with beautiful islands, alluring seas, colorful corals, and exotic
+                    sea
+                    creatures, making it the perfect holiday in the sun.</p>
+                <button type="button" class="btn btn-dark">Book now</button>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="row m-2 p-2">
+                    <div class="col">
+                        <img class="img-fluid rounded" src="imgs/beach1.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid rounded" src="imgs/chillbeach.png" alt="">
+                    </div>
+                </div>
+                <div class="row m-2 p-2">
+                    <div class="col">
+                        <img class="img-fluid rounded" src="imgs/beach2.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid rounded" src="imgs/boat1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- national park safari -->
+    <section class="container-fluid mt-5 mb-3">
+        <div class="row justify-content-center text-center align-items-center">
+            <h2 class="toursback p-3">SAFARI</h2>
+            <div class="col-12 col-md-5">
+                <div class="row m-2 p-2">
+                    <div class="col-12 col-md-10  m-2 serengeticard card text-center text-white">
+                        <div class="card-body">
+                            <h5 class="card-title m-3">Serengeti National Park</h5>
+                            <a href="#" class="btn btn-light m-3 rounded-pill">Details</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10  m-2 mikumicard card text-center text-white">
+                        <div class="card-body">
+                            <h5 class="card-title m-3">Mikoumi National Park</h5>
+                            <a href="#" class="btn btn-light m-3 rounded-pill">Details</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10  m-2 p-2 kilimanjarocard card text-center text-white">
+                        <div class="card-body">
+                            <h5 class="card-title m-3">Kilimanjaro Climbing</h5>
+                            <a href="#" class="btn btn-light m-3 rounded-pill">Details</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10  m-2 p-2 saadanicard card text-center text-white">
+                        <div class="card-body">
+                            <h5 class="card-title m-3">Saadani National Park</h5>
+                            <a href="#" class="btn btn-light m-3 rounded-pill">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <h2 class="p-2">Safari in tanzania</h2>
+                <p class="fs-5">Just off the mainland of Tanzania, on the east coast of Africa, is an Indian Ocean
+                    nirvana called Zanzibar. The Zanzibar archipelago is also known as the 'Spice Islands' because of
+                    its abundance of produce, spice, and clove plantations. </p>
+
+                <p class="fs-5">Zanzibar is blessed with beautiful islands, alluring seas, colorful corals, and exotic
+                    sea
+                    creatures, making it the perfect holiday in the sun.</p>
+                <button type="button" class="btn btn-dark">Book now</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- tours pictures with customers -->
+    <section class="container-fluid mt-5 mb-3">
+        <div class="row justify-content-md-center text-center align-items-center">
+            <h2 class="toursback p-3">Pictures & Reviews</h2>
+            <div class="col-12 col-md-10">
+                <div class="row m-2 p-2 justify-content-center align-items-center">
+                    <div class="col-12 p-2 col-md-4">
+                        <img class="img-fluid rounded" src="imgs/pict1.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-7 p-2">
+                        <img class="img-fluid rounded" src="imgs/pict10.png" alt="">
+                    </div>
+                    <div class="col-12 p-2 col-md-5">
+                        <img class="img-fluid rounded" src="imgs/pict3.png" alt="">
+                    </div>
+                    <div class="col-12 p-2 col-md-5">
+                        <img class="img-fluid rounded" src="imgs/pict4.png" alt="">
+                    </div>
+                    <div class="col-12 p-2 col-md-4">
+                        <img class="img-fluid rounded" src="imgs/pict7.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-7 p-2">
+                        <img class="img-fluid rounded" src="imgs/pict11.png" alt="">
+                    </div>
+                    <div class="col-12 p-2 col-md-4">
+                        <img class="img-fluid rounded" src="imgs/pict2.png" alt="">
+                    </div>
+                    <div class="col-12 p-2 col-md-4">
+                        <img class="img-fluid rounded" src="imgs/pict6.png" alt="">
+                    </div>
+                    <div class="col-12 p-2 col-md-4">
+                        <img class="img-fluid rounded" src="imgs/pict5.png" alt="">
+                    </div>
+                    <div class="col-12 p-2 col-md-4">
+                        <img class="img-fluid rounded" src="imgs/pict8.png" alt="">
+                    </div>
+                    <div class="col-12 p-2 col-md-4">
+                        <img class="img-fluid rounded" src="imgs/pict9.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="container-fluid mt-0 mb-3">
+        <div class="row text-center justify-content-center align-items-center">
+            <div class="col-12 col-md-10">
+                <div class="row m-2 p-2">
+                    <h2>Reviews</h2>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card shadow border-light mb-3">
+                            <div class="card-body text-dark">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card shadow border-light mb-3">
+                            <div class="card-body text-dark">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card shadow border-light mb-3">
+                            <div class="card-body text-dark">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid mt-0 mb-3">
+
+    </section>
+
+
+    <footer class="mt-auto text-white-50">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col">
+                    <a href="https://wa.me/255779445440"><img src="imgs/whatsapp.svg" width="25px" height="25px"
+                            alt=""><span class="text-white-50">  +255 779 445 440</span></a>
+                </div>
+                <div class="col">
+                    <a href="https://instagram.com/choumzanzibartours?utm_medium=copy_link"><img
+                        src="imgs/instagram.svg" width="25px" height="25px" alt=""><span class="text-white-50">
+                        choumzanzibartours</span></a>
+                </div>
+                    
+                <div class="col">
+                    <a href="https://www.facebook.com/choum.khamischoum"><img src="imgs/facebook.svg" width="25px"
+                        height="25px" alt=""><span class="text-white-50"> Choum Zanzibar Tour</span></a>
+                </div>
+                <div class="col-12 pt-3">
+                    <p>&copy; 2021 zanzibarchoumtour</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
